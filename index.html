@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cristiano Ronaldo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="cristiano_ronaldo_logo.png" alt="logo do Cristiano Ronaldo">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Biografia</li>
+            <li class="cabecalho-lista-item">Conquistas</li>
+            <li class="cabecalho-lista-item">Galeria</li>
+            <li class="cabecalho-lista-item">Contato</li>
+        </ul>
+    </header>
+    <section class="biografia">
+        <div class="biografia-div-conteudo">
+            <h2 class="biografia-titulo">Biografia de Cristiano Ronaldo</h2>
+            <p class="biografia-texto-um">Cristiano Ronaldo é um dos maiores jogadores de futebol da história, nascido em Portugal em 1985.</p>
+            <p class="biografia-texto-dois">Desde jovem, Ronaldo mostrou um talento excepcional para o esporte, destacando-se rapidamente em sua carreira profissional.</p>
+        </div>
+        <img class="biografia-imagem" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbrDhCdnlxaFrtPM0U1GihgmbsWlb8ex1C5w&usqp=CAU" alt="foto de Cristiano Ronaldo">
+    </section>
+    <section class="conquistas">
+        <h2 class="conquistas-titulo">Conquistas de Cristiano Ronaldo</h2>
+        <div class="conquistas-todos">
+            <div class="conquistas-div">
+                <h3 class="conquistas-subtitulo">Liga dos Campeões</h3>
+                <p class="conquistas-texto">Cristiano Ronaldo conquistou a Liga dos Campeões várias vezes ao longo de sua carreira, demonstrando sua habilidade e determinação no mais alto nível do futebol europeu.</p>
+            </div>
+            <div class="conquistas-div">
+                <h3 class="conquistas-subtitulo">Bola de Ouro</h3>
+                <p class="conquistas-texto">Como um dos jogadores mais premiados da história, Cristiano Ronaldo recebeu a Bola de Ouro em diversas ocasiões, reconhecendo sua excelência individual no esporte.</p>
+            </div>
+            <div class="conquistas-div">
+                <h3 class="conquistas-subtitulo">Campeonatos Nacionais</h3>
+                <p class="conquistas-texto">Além de suas conquistas internacionais, Cristiano Ronaldo também brilhou em campeonatos nacionais, liderando seus clubes rumo a inúmeros títulos domésticos.</p>
+            </div>
+        </div>
+    </section>
+    <section class="galeria">
+        <h2 class="galeria-titulo">Galeria de Cristiano Ronaldo</h2>
+        <div class="galeria-todos">
+            <img class="galeria-imagem" src="https://conteudo.imguol.com.br/c/esporte/7b/2023/10/13/cristiano-ronaldo-celebra-vitoria-de-portugal-sobre-a-eslovaquia-nas-eliminatorias-da-euro-1697230806138_v2_450x450.jpg" alt="foto de Cristiano Ronaldo">
+            <img class="galeria-imagem" src="https://media.moneytimes.com.br/uploads/2022/11/cristiano-ronaldo.jpg" alt="foto de Cristiano Ronaldo">
+            <img class="galeria-imagem" src="https://lncimg.lance.com.br/uploads/2021/08/27/612931a72dee7.jpeg" alt="foto de Cristiano Ronaldo">
+            <img class="galeria-imagem" src="https://tntsports.com.br/__export/1706709348307/sites/esporteinterativo/img/2024/01/31/cristiano_ronaldo_cr7_gettyimages-1888254020.jpg_1412044366.jpg" alt="foto de Cristiano Ronaldo">
+            <img class="galeria-imagem" src="https://www.365scores.com/pt-br/news/magazine/wp-content/uploads/2023/08/GettyImages-1593718769-780x470.jpg" alt="foto de Cristiano Ronaldo">
+        </div>
+    </section>
+    <section class="contato">
+        <h2 class="contato-titulo">Entre em Contato</h2>
+        <form class="contato-formulario" action="enviar.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer class="rodape">
+        <p>© 2024 Cristiano Ronaldo. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
